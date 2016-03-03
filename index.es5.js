@@ -1,5 +1,12 @@
 'use strict';
 
+/**
+ * [ES2015 EventEmitter3](https://github.com/helloandre/es2015-eventemitter3)
+ * a port of [EventEmitter3](https://github.com/primus/eventemitter3)
+ * 
+ * @author Andre Bluehs <hello@andrebluehs.net>
+ */
+
 // We store our EE objects in a plain object whose properties are event names.
 // If `Object.create(null)` is not supported we prefix the event names with a
 // `~` to make sure that the built-in object properties are not overridden or
